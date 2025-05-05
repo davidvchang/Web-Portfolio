@@ -10,7 +10,7 @@ const Home = () => {
         <div className='w-[90%] flex items-center justify-around'>
             <div className='flex flex-col'>
                 <span className='text-5xl font-light'>Hola, mi nombre es</span>
-                <span className='text-7xl font-semibold text-principal-color'>David Valenzuela</span>
+                <span className='text-7xl font-semibold text-principal-color typing-effect'>David Valenzuela</span>
                 <span className='text-2xl text-slate-300 font-light'>Ing. en Sistemas Computacionales</span>
 
                 <div className='flex pt-10 items-center gap-8'>
@@ -25,7 +25,7 @@ const Home = () => {
 
             </div>
 
-            <div className='relative w-64 h-64 rounded-full overflow-hidden bg-slate-200'>
+            <div className='relative w-64 h-64 rounded-full overflow-hidden bg-slate-200 float-effect'>
                 <img src={Profile_Photo} alt="" className='w-[21rem] h-[21rem] object-contain absolute -top-2 left-2'/>
             </div>
         </div>
