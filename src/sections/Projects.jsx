@@ -12,7 +12,7 @@ const Projects = () => {
         <span className='text-4xl font-semibold'>My Projects</span>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 justify-center'>
-            <ProjectCard image={Joinly} title="Joinly" description="Event system where you can see available events, and if you log in you can add new events, join an available event, etc." 
+            <ProjectCard image={Joinly} title="Joinly" description="Sistema de eventos donde puedes ver todos los eventos disponibles para unirte, al registrarte e iniciar sesión, puedes crear tus propios eventos, eliminar y editar los eventos previamente creados." 
                 
                 children={
                     <>
