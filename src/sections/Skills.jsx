@@ -1,7 +1,7 @@
 import React from 'react'
 import SkillsContainer from '../components/SkillsContainer'
 import Skill from '../components/Skill'
-import {ReactIcon, Vue, HTML5, CSS, Sass, TailwindCSS, Bootstrap, Nodejs, Expressjs, PostgreSQL, MicrosoftSQLServer, MySQL, MongoDB} from '../assets/icons/SkillsIcons'
+import {ReactIcon, Vue, HTML5, CSS, Sass, TailwindCSS, Bootstrap, Nodejs, Expressjs, PostgreSQL, MicrosoftSQLServer, MySQL, MongoDB, JavaScript, TypeScript, Python, CSharp} from '../assets/icons/SkillsIcons'
 
 const Skills = () => {
   return (
@@ -37,10 +37,10 @@ const Skills = () => {
 
             <SkillsContainer text='Lenguajes de Programación' children={
                 <>
-                    <Skill name='JavaScript' icon={<ReactIcon className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
-                    <Skill name='TypeScript' icon={<Vue className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
-                    <Skill name='Python' icon={<HTML5 className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
-                    <Skill name='C#' icon={<CSS className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
+                    <Skill name='JavaScript' icon={<JavaScript className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
+                    <Skill name='TypeScript' icon={<TypeScript className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
+                    <Skill name='Python' icon={<Python className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
+                    <Skill name='C#' icon={<CSharp className="w-8 h-8 group-hover:scale-105 group-hover:transition group-hover:duration-300"/>}/>
                 </>
             }/>
 
