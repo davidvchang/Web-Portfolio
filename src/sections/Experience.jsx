@@ -3,7 +3,7 @@ import ExperienceContainer from '../components/ExperienceContainer'
 
 const Experience = () => {
   return (
-    <section className='w-full flex flex-col items-center py-20 gap-10'>
+    <section className='w-full flex flex-col items-center py-20 gap-10' id='experience'>
         <div className='w-[60%] flex flex-col gap-10'>
             <span className='text-4xl font-semibold text-center'>Mi Experiencia</span>
 

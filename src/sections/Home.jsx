@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Home = () => {
   return (
-    <section className='flex flex-items w-full min-h-screen items-center justify-center'>
+    <section className='flex flex-items w-full min-h-screen items-center justify-center' id='home'>
         <div className='w-[90%] flex items-center justify-around'>
             <div className='flex flex-col'>
                 <span className='text-5xl font-light'>Hola, mi nombre es</span>

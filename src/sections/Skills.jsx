@@ -5,7 +5,7 @@ import {ReactIcon, Vue, HTML5, CSS, Sass, TailwindCSS, Bootstrap, Nodejs, Expres
 
 const Skills = () => {
   return (
-    <section className='flex flex-col items-center py-20 gap-10'>
+    <section className='flex flex-col items-center py-20 gap-10' id='skills'>
         <span className='text-4xl font-semibold'>Mis Habilidades</span>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 justify-center'>
