@@ -1,3 +1,4 @@
+import ContactMe from "./sections/ContactMe"
 import Experience from "./sections/Experience"
 import Home from "./sections/Home"
 import NavBar from "./sections/NavBar"
@@ -14,6 +15,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Experience/>
+      <ContactMe/>
     </main>
   )
 }
