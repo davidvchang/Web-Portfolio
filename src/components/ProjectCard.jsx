@@ -8,7 +8,7 @@ const [visibility, setVisibility] = useState(false)
   }
 
   return (
-    <div className='w-full md:w-[408px] h-full border overflow-hidden bg-white/5 backdrop-blur-xl rounded-lg border-white/10 hover:border-teal-400/50 hover:transition duration-300'>
+    <div className='w-full md:w-[408px] h-full border overflow-hidden bg-white/5 backdrop-blur-xl rounded-lg border-white/10 hover:border-principal-color/70 hover:transition duration-300'>
         <div className=' w-full md:w-[408px] h-52 relative overflow-hidden' onMouseEnter={toggleVisibility} onMouseLeave={toggleVisibility}>
             <img src={image} alt="Project Image"  className='w-full h-full object-cover'/>
 
